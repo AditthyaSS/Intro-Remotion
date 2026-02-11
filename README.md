@@ -1,54 +1,121 @@
-# Remotion video
+# Techie Adi — Developer Intro (Built with Code)
 
-<p align="center">
-  <a href="https://github.com/remotion-dev/logo">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-dark.apng">
-      <img alt="Animated Remotion Logo" src="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-light.gif">
-    </picture>
-  </a>
-</p>
+This repository contains my personal intro video created entirely using **Remotion**.
 
-Welcome to your Remotion project!
+Instead of using traditional video editing software, this intro was built **programmatically** using React and animation logic. Every transition, motion, and typography effect is controlled through code.
 
-## Commands
+---
 
-**Install Dependencies**
+## 🚀 About This Project
 
-```console
-npm i
+This project represents:
+
+- **Programmatic motion graphics** using React
+- **Frame-based animation logic**
+- **Clean developer-oriented design**
+- **Keynote-inspired visual storytelling**
+
+The goal was to create a modern identity intro using only code.
+
+---
+
+## 🛠 Tech Stack
+
+- **Remotion** — Programmatic video creation
+- **React** — Component-based architecture
+- **TypeScript** — Type-safe development
+- **CSS-in-JS** — Inline styling
+- **Frame-based animation system** — Precise motion control
+
+---
+
+## 🎬 Rendering the Video
+
+Make sure dependencies are installed:
+
+```bash
+npm install
 ```
 
-**Start Preview**
+To preview the intro:
 
-```console
+```bash
 npm run dev
 ```
 
-**Render video**
+Then open `http://localhost:3000` and select the composition.
 
-```console
-npx remotion render
+To render the final video:
+
+```bash
+npx remotion render src/index.ts GoogleIOIntro out.mp4
 ```
 
-**Upgrade Remotion**
+---
 
-```console
-npx remotion upgrade
+## 📁 Project Structure
+
+```
+src/
+ ├─ Intro/
+ │   ├─ GoogleIOIntro.tsx      # Main composition (5 scenes)
+ │   ├─ CleanText.tsx           # Reusable typography component
+ │   └─ AccentElements.tsx      # Subtle visual embellishments
+ └─ Root.tsx                    # Composition registration
 ```
 
-## Docs
+---
 
-Get started with Remotion by reading the [fundamentals page](https://www.remotion.dev/docs/the-fundamentals).
+## 🎨 Design Philosophy
 
-## Help
+This intro follows a **Google I/O developer keynote aesthetic**:
 
-We provide help on our [Discord server](https://discord.gg/6VzzNDwUwV).
+- Light, clean backgrounds
+- Minimal but intentional motion
+- Generous white space
+- Subtle accent colors
+- Material Design easing
+- Professional, developer-oriented tone
 
-## Issues
+**No cinematic darkness. No heavy effects. Just clean, intelligent design.**
 
-Found an issue with Remotion? [File an issue here](https://github.com/remotion-dev/remotion/issues/new).
+---
 
-## License
+## 📈 Future Improvements
 
-Note that for some entities a company license is needed. [Read the terms here](https://github.com/remotion-dev/remotion/blob/main/LICENSE.md).
+This is the first iteration of my intro.
+
+In the future, I plan to:
+
+- Improve motion timing and transitions
+- Refine typography hierarchy
+- Enhance visual depth and polish
+- Optimize animation curves
+- Explore 3D integration if needed
+
+This project will continue evolving as I refine my motion design and engineering skills.
+
+---
+
+## 💡 Why Code-Based Motion?
+
+I believe **creative systems should be programmable**.
+
+Using Remotion allows:
+
+- ✅ **Precise control** over animation
+- ✅ **Reusability** of components
+- ✅ **Scalable design logic**
+- ✅ **Engineering-driven creativity**
+
+Traditional video editing is powerful, but code-based motion graphics enable a different kind of precision and iteration speed.
+
+---
+
+## 📝 License
+
+This project is for personal use. Feel free to explore the code and learn from it.
+
+---
+
+**Built with React, TypeScript, and Remotion.**
