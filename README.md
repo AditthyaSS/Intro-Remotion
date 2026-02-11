@@ -6,6 +6,28 @@ Instead of using traditional video editing software, this intro was built **prog
 
 ---
 
+## 🎥 Output Video
+
+> **Note**: To view the final rendered video, render it locally or check the releases section once available.
+
+https://github.com/user-attachments/assets/your-video-id-here
+
+To render this intro yourself:
+
+```bash
+npx remotion render src/index.ts GoogleIOIntro out.mp4
+```
+
+---
+# Techie Adi — Developer Intro
+
+## 🎬 Preview
+
+<p align="center">
+  <img src="./intro.mp4" alt="Techie Adi Intro Preview" width="800"/>
+</p>
+
+
 ## 🚀 About This Project
 
 This project represents:
