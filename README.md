@@ -10,8 +10,6 @@ Instead of using traditional video editing software, this intro was built **prog
 
 > **Note**: To view the final rendered video, render it locally or check the releases section once available.
 
-https://github.com/user-attachments/assets/your-video-id-here
-
 To render this intro yourself:
 
 ```bash
